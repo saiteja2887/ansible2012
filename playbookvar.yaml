@@ -1,0 +1,9 @@
+
+---
+- hosts: ubuntu
+  vars:
+    test: Wlcome to Ansible variables
+  tasks:
+  - name: print the variable
+    debug:
+      msg: "{{ test }}"
